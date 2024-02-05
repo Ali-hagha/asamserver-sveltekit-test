@@ -9,9 +9,10 @@
 }
 html,
 body {
+	height: 100%;
 	margin: 0;
 	font-family:
-        manrope,
+		manrope,
 		system-ui,
 		-apple-system,
 		BlinkMacSystemFont,

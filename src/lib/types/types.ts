@@ -3,3 +3,5 @@ export interface IconButton {
 	icon: string;
 	href: string;
 }
+
+export type Optional<T> = T | undefined;
