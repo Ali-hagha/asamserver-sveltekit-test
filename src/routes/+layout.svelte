@@ -8,6 +8,6 @@
 
 <Header />
 
-<main class="ml-[135px] bg-athens_gray h-full">
+<main class="ml-[135px] bg-athens_gray h-full text-primary_dark">
 	<slot />
 </main>
