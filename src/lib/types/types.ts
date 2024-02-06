@@ -18,3 +18,5 @@ interface Customer {
 	email: string | null;
 	address: string;
 }
+
+export type PaymentMethod = "CRYPTO" | "PAYPAL" | "CREDIT_CARD" | "WEB_MONEY" 

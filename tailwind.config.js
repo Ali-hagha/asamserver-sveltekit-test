@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
 	daisyui: {
-		themes: []
+		themes: ['light']
 	},
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
@@ -24,5 +24,8 @@ export default {
 			}
 		}
 	},
-	plugins: [require('daisyui'), require('@tailwindcss/forms')]
+	plugins: [
+		require('daisyui')
+		// require('@tailwindcss/forms')
+	]
 };
