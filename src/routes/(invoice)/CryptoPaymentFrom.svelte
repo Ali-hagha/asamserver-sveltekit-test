@@ -28,13 +28,13 @@
 	</div>
 </div>
 <div class="flex flex-col gap-2 mb-5">
-	<div class="flex items-center justify-between px-4 py-2 border border-e-porcelain rounded-[5px]">
+	<div class="flex items-center justify-between px-4 py-2 border border-porcelain rounded-[5px]">
 		<p class="font-medium text-sm leading-4">Sub Total</p>
 		<p class="font-medium text-sm leading-4">
 			{currencyFormatter.format(invoice.subTotal)} USD
 		</p>
 	</div>
-	<div class="flex items-center justify-between px-4 py-2 border border-e-porcelain rounded-[5px]">
+	<div class="flex items-center justify-between px-4 py-2 border border-porcelain rounded-[5px]">
 		<p class="font-medium text-sm leading-4">Discount Code</p>
 		<input
 			type="text"
@@ -46,9 +46,7 @@
 			{currencyFormatter.format(0)} USD
 		</p>
 	</div>
-	<div
-		class="flex items-center justify-between px-4 py-2 border border-e-porcelain rounded-[5px] bg-porcelain"
-	>
+	<div class="flex items-center justify-between px-4 py-2 rounded-[5px] bg-porcelain">
 		<p class="font-medium text-sm leading-4">Total</p>
 		<p class="font-medium text-sm leading-4">
 			{currencyFormatter.format(invoice.total)} USD
