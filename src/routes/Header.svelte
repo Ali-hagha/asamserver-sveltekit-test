@@ -7,7 +7,7 @@
 </script>
 
 <header
-	class="ml-[135px] px-[50px] pt-12 pb-[60px] bg-athens_gray flex items-center justify-between"
+	class="xl:ml-[135px] lg:ml-28 ml-24 px-[50px] pt-12 pb-[60px] bg-athens_gray flex items-center justify-between"
 >
 	<div>
 		<h2 class="text-3xl mb-3">Invoice Details</h2>

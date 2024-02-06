@@ -22,7 +22,7 @@
 </script>
 
 <div class="flex items-center justify-center pb-20">
-	<div class="flex flex-col items-end">
+	<div class="flex flex-col items-end mx-4">
 		<div class="bg-white max-w-[832px] flex-1 border-[1px] border-porcelain rounded-[5px] p-[25px]">
 			<InvoiceHeader />
 			<div class="px-[15px] mb-5" data-theme="light">

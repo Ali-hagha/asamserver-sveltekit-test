@@ -58,23 +58,22 @@
 	];
 </script>
 
-
 <div
-	class="w-[135px] h-full fixed z-10 top-0 left-0 overflow-x-hidden
+	class="xl:w-[135px] lg:w-28 w-24 h-full fixed z-10 top-0 left-0 overflow-x-hidden
 	bg-gradient-to-b from-primary_dark to-rich_black pt-[60px]
 	flex flex-col items-center"
 >
 	<Logo />
 	<div class="pt-[60px] gap-10 flex flex-col">
 		<div class="flex flex-col items-center">
-			<p class="text-cadet_gray mb-[30px]">GENERAL</p>
+			<p class="text-cadet_gray mb-[30px] text-sm xl:text-base">GENERAL</p>
 			{#each generalBtns as link}
 				<IconBtn button={link} />
 			{/each}
 		</div>
 
 		<div class="flex flex-col items-center">
-			<p class="text-cadet_gray mb-[30px]">PRO</p>
+			<p class="text-cadet_gray mb-[30px] text-sm xl:text-base">PRO</p>
 			{#each proBtns as link}
 				<IconBtn button={link} />
 			{/each}

@@ -15,17 +15,18 @@
 	$: isBlock = type === 'block';
 
 	$: primaryClasses =
-		'px-9 bg-accent_green hover:bg-accent_green/90 active:bg-accent_green text-white';
+		'xl:px-9 px-7 bg-accent_green hover:bg-accent_green/90 active:bg-accent_green text-white';
 	$: secondaryClasses =
-		'px-9 bg-porcelain text-space_gray hover:bg-french_gray/60 active:bg-porcelain flex items-center justify-center gap-2.5';
-	$: iconClasses = 'bg-porcelain text-space_gray hover:bg-french_gray/60 active:bg-porcelain px-4';
+		'xl:px-9 px-7 bg-porcelain text-space_gray hover:bg-french_gray/60 active:bg-porcelain flex items-center justify-center gap-2.5';
+	$: iconClasses =
+		'xl:px-4 px-3 bg-porcelain text-space_gray hover:bg-french_gray/60 active:bg-porcelain';
 	$: blockClasses =
 		'w-full bg-accent_green hover:bg-accent_green/90 active:bg-accent_green text-white';
 </script>
 
 <button
 	on:click={clickHandler}
-	class="py-4 rounded-[5px] font-medium transition-colors
+	class="xl:py-4 py-3 rounded-[5px] font-medium transition-colors
     {isPrimary ? primaryClasses : ''}
     {isSecondary ? secondaryClasses : ''}
     {isIcon ? iconClasses : ''}
