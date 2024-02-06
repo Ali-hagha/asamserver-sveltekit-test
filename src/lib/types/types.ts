@@ -13,12 +13,17 @@ export interface Invoice {
 	payTo: Customer;
 	subTotal: number;
 	total: number;
+	items: InvoiceItem[];
 }
 
 interface Customer {
 	name: string;
 	email: string | null;
 	address: string;
+}
+interface InvoiceItem {
+	title: string;
+	total: number;
 }
 
 export type PaymentMethod = 'CRYPTO' | 'PAYPAL' | 'CREDIT_CARD' | 'WEB_MONEY';
