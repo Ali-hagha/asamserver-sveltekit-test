@@ -11,7 +11,7 @@
 		<h3 class="text-3xl">Invoice #{invoice.id}</h3>
 		{#if !invoice.paid}
 			<div
-				class=" absolute right-0 top-0 bg-accent_light_red text-accent_red text-sm font-semibold py-2 pr-6 pl-9"
+				class="absolute -mr-10 right-0 top-0 bg-accent_light_red text-accent_red text-sm font-semibold py-2 pr-6 pl-9"
 			>
 				<p>Unpaid</p>
 				<div
