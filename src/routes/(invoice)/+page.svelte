@@ -82,7 +82,7 @@
 
 			<InvoiceItems />
 		</div>
-		<div class="mt-8 flex gap-2">
+		<div class="mt-6 flex gap-2">
 			<button
 				class="text-sm font-medium rounded-[5px] py-2 px-4 bg-porcelain transition-colors active:bg-porcelain hover:bg-french_gray/70"
 				>Print Invoice</button
