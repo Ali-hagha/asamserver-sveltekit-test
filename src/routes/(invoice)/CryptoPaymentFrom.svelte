@@ -7,7 +7,7 @@
 	$: invoice = $page.data.invoiceData as Invoice;
 </script>
 
-<div class="p-[14px] mb-5">
+<div class="p-[14px] pl-2 mb-5">
 	<div class="border-l-2 border-l-porcelain pl-3 text-slate_gray leading-7 text-sm">
 		<p>
 			The <span class="font-semibold text-charcoal">Crypto Currency</span> gateway is

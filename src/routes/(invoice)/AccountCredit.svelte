@@ -10,7 +10,7 @@
 		<img src={iconCreditCard} alt="credit card" />
 		<p class="font-medium text-accent_green">Apply Credit</p>
 	</div>
-	<div class="p-[30px] flex items-center justify-between">
+	<div class="p-[30px] pl-6 flex items-center justify-between">
 		<div class="border-l-2 border-l-porcelain pl-3 text-slate_gray leading-7 text-sm">
 			<p>
 				The amount in your account is <span class="font-semibold text-accent_green"
