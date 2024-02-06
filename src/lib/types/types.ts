@@ -11,6 +11,8 @@ export interface Invoice {
 	paid: boolean;
 	invoicedTo: Customer;
 	payTo: Customer;
+	subTotal: number;
+	total: number;
 }
 
 interface Customer {
@@ -19,4 +21,4 @@ interface Customer {
 	address: string;
 }
 
-export type PaymentMethod = "CRYPTO" | "PAYPAL" | "CREDIT_CARD" | "WEB_MONEY" 
+export type PaymentMethod = 'CRYPTO' | 'PAYPAL' | 'CREDIT_CARD' | 'WEB_MONEY';

@@ -15,7 +15,7 @@
 		<RadioInput {value} bind:groupAccordion={checked} name="payment-title" />
 		<slot name="title" />
 	</div>
-	<div class="collapse-content">
+	<div class="collapse-content p-0">
 		<slot name="content" />
 	</div>
 </div>

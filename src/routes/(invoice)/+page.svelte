@@ -13,14 +13,14 @@
 	import iconDiscover from '$lib/icons/payment/discover.svg';
 	import iconWebmoney from '$lib/icons/payment/Webmoney.svg';
 	import AccountCredit from './AccountCredit.svelte';
+	import CryptoPaymentFrom from './CryptoPaymentFrom.svelte';
 
-	export let data;
 	let checked: PaymentMethod = 'CRYPTO';
 
 	const accountBalance = 50;
 </script>
 
-<div class="flex items-center justify-center">
+<div class="flex items-center justify-center pb-20">
 	<div class="bg-white max-w-[832px] flex-1 border-[1px] border-porcelain rounded-[5px] p-[25px]">
 		<InvoiceHeader />
 		<div class="px-[15px] mb-5" data-theme="light">
@@ -39,10 +39,8 @@
 					<img src={iconBtcCash} alt="bitcoin cash" />
 				</div>
 			</div>
-			<div slot="content" class="">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium repellendus, ipsa ut
-				error assumenda doloremque, aliquid eveniet reprehenderit, quaerat vel illo eligendi
-				inventore consequatur reiciendis. Fugiat et hic quidem similique!
+			<div slot="content" class="p-4 pb-0">
+				<CryptoPaymentFrom />
 			</div>
 		</PaymentAccordionItem>
 		<PaymentAccordionItem bind:checked value="PAYPAL">
@@ -52,7 +50,9 @@
 					<img src={iconPaypal} alt="paypal" />
 				</div>
 			</div>
-			<div slot="content" class="w-full bg-accent_light_green"></div>
+			<div slot="content" class="p-4 pb-0">
+				<CryptoPaymentFrom />
+			</div>
 		</PaymentAccordionItem>
 		<PaymentAccordionItem bind:checked value="CREDIT_CARD">
 			<div slot="title" class="flex items-center justify-between flex-1">
@@ -62,7 +62,9 @@
 					<img src={iconDiscover} alt="discover" />
 				</div>
 			</div>
-			<div slot="content" class="w-full bg-accent_light_green"></div>
+			<div slot="content" class="p-4 pb-0">
+				<CryptoPaymentFrom />
+			</div>
 		</PaymentAccordionItem>
 		<PaymentAccordionItem bind:checked value="WEB_MONEY">
 			<div slot="title" class="flex items-center justify-between flex-1">
@@ -71,7 +73,9 @@
 					<img src={iconWebmoney} alt="web money" />
 				</div>
 			</div>
-			<div slot="content" class="w-full bg-accent_light_green"></div>
+			<div slot="content" class="p-4 pb-0">
+				<CryptoPaymentFrom />
+			</div>
 		</PaymentAccordionItem>
 	</div>
 </div>

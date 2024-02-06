@@ -12,7 +12,9 @@ export function load() {
 			name: 'OperVPS Ltd.',
 			email: null,
 			address: '47 Wharf Rd, N1 7GS London, United Kingdom'
-		}
+		},
+		subTotal: 40.98,
+		total: 30.98
 	};
 	return {
 		invoiceData
