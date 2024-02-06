@@ -35,12 +35,13 @@
 		</p>
 	</div>
 	<div class="flex items-center justify-between px-4 py-2 border border-porcelain rounded-[5px]">
-		<p class="font-medium text-sm leading-4">Discount Code</p>
+		<p class="md:block hidden font-medium text-sm leading-4">Discount Code</p>
 		<input
 			type="text"
 			name="discount"
 			placeholder="Do you have a discount code?"
-			class="border-x border-porcelain -my-2 text-sm font-medium absolute left-32 w-[215px] h-full focus:ring-0 focus:outline-none px-2.5"
+			class="md:border-x border-porcelain md:-my-2 sm:text-sm text-xs font-medium md:absolute md:left-32 md:w-[215px]
+			h-full focus:ring-0 focus:outline-none md:px-2.5"
 		/>
 		<p class="font-medium text-sm leading-4">
 			{currencyFormatter.format(0)} USD

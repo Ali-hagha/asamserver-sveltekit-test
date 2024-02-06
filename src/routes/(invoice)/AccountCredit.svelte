@@ -10,8 +10,8 @@
 		<img src={iconCreditCard} alt="credit card" />
 		<p class="font-medium text-accent_green">Apply Credit</p>
 	</div>
-	<div class="p-[30px] pl-6 flex items-center justify-between">
-		<div class="border-l-2 border-l-porcelain pl-3 text-slate_gray leading-7 text-sm">
+	<div class="p-[30px] pl-6 flex md:flex-row flex-col md:items-center md:justify-between">
+		<div class="border-l-2 border-l-porcelain pl-3 text-slate_gray leading-7 text-sm md:mb-0 mb-6">
 			<p>
 				The amount in your account is <span class="font-semibold text-accent_green"
 					>{currencyFormatter.format(accountBalance)} USD.</span
@@ -37,7 +37,7 @@
 				step="0.01"
 				max="2500"
 				placeholder="15"
-				class="p-0 w-24 border-0 focus:ring-0 focus:outline-none [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
+				class="p-0 md:w-24 w-full border-0 focus:ring-0 focus:outline-none [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
 			/>
 			<button
 				class="font-medium text-accent_green py-2 px-2.5 transition-colors

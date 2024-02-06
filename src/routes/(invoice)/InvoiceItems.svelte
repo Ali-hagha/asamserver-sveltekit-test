@@ -11,10 +11,15 @@
 
 <div class="collapse bg-porcelain rounded-[5px]">
 	<input type="checkbox" bind:checked />
-	<div class="collapse-title font-medium px-8 flex items-center justify-between">
+	<div class="collapse-title font-medium sm:px-8 px-4 flex items-center justify-between">
 		<div class="flex items-center gap-4">
 			<p>Invoice Items</p>
-			<img src={iconChevronDown} alt="arrow" class="transition-transform" class:rotate-180={checked}/>
+			<img
+				src={iconChevronDown}
+				alt="arrow"
+				class="transition-transform"
+				class:rotate-180={checked}
+			/>
 		</div>
 		<p class="text-stone_gray text-sm">
 			(<span class="text-primary_dark">{invoice.items.length}</span> item/s included)

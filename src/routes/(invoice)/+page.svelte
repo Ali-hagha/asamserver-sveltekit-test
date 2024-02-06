@@ -22,7 +22,7 @@
 </script>
 
 <div class="flex items-center justify-center pb-20">
-	<div class="flex flex-col items-end mx-4">
+	<div class="flex flex-col items-end sm:mx-4">
 		<div
 			class="bg-white max-w-[832px] flex-1 border-[1px] border-porcelain rounded-[5px] md:p-[25px] p-4"
 		>
@@ -84,13 +84,13 @@
 
 			<InvoiceItems />
 		</div>
-		<div class="mt-6 flex gap-2">
+		<div class="mt-6 flex self-stretch sm:w-auto justify-center gap-2 mx-4 sm:mx-0">
 			<button
-				class="text-sm font-medium rounded-[5px] py-2 px-4 bg-porcelain transition-colors active:bg-porcelain hover:bg-french_gray/70"
+				class="text-sm flex-1 font-medium rounded-[5px] py-2 px-4 bg-porcelain transition-colors active:bg-porcelain hover:bg-french_gray/70"
 				>Print Invoice</button
 			>
 			<button
-				class="text-sm font-medium rounded-[5px] py-2 px-4 bg-porcelain transition-colors active:bg-porcelain hover:bg-french_gray/70"
+				class="text-sm flex-1 font-medium rounded-[5px] py-2 px-4 bg-porcelain transition-colors active:bg-porcelain hover:bg-french_gray/70"
 				>Download PDF</button
 			>
 		</div>

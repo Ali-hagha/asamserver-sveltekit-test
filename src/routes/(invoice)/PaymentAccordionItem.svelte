@@ -9,7 +9,7 @@
 <div class="collapse rounded-[5px] border mb-[15px] last:mb-0" class:border-accent_green={open}>
 	<input type="radio" name="payment" {value} bind:group={checked} />
 	<div
-		class="collapse-title font-medium flex items-center gap-[15px] border-porcelain rounded-[5px] px-4 py-0"
+		class="collapse-title font-medium sm:text-base text-sm flex items-center sm:gap-[15px] gap-3 border-porcelain rounded-[5px] px-4 py-0"
 		class:rounded-b-none={open}
 		class:border={open}
 	>
