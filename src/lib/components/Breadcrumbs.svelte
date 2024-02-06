@@ -22,7 +22,7 @@
 <div class="flex gap-2 items-center">
 	<img src={iconTag} alt="tag" />
 	<div class="breadcrumbs">
-		<ul class="text-stone_gray">
+		<ul class="text-stone_gray lg:text-base text-sm">
 			{#each paths as path, i}
 				{#if i === paths.length - 1}
 					<li class="text-french_gray">{path.title}</li>
