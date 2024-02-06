@@ -84,7 +84,7 @@
 
 			<InvoiceItems />
 		</div>
-		<div class="mt-6 flex self-stretch sm:w-auto justify-center gap-2 mx-4 sm:mx-0">
+		<div class="mt-6 flex sm:block sm:self-auto self-stretch justify-center gap-2 mx-4 sm:mx-0">
 			<button
 				class="text-sm flex-1 font-medium rounded-[5px] py-2 px-4 bg-porcelain transition-colors active:bg-porcelain hover:bg-french_gray/70"
 				>Print Invoice</button
