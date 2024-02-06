@@ -21,7 +21,7 @@
 
 <div class="flex gap-2 items-center">
 	<img src={iconTag} alt="tag" />
-	<div class="text-sm breadcrumbs">
+	<div class="breadcrumbs">
 		<ul class="text-stone_gray">
 			{#each paths as path, i}
 				{#if i === paths.length - 1}
